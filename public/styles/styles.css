@@ -1,5 +1,5 @@
 h1{
-    background-color: navy;
+    background-color: #202A44;
     color: white
 }
 a{
@@ -7,6 +7,11 @@ a{
     font-size: 10px;
 }
 img{
-    width: 80%;
-    height: 40%;
+    width: 450px;
+    height: 300px;
+    text-align: center;
+}
+div{
+    background-color: #cfd2d4;
+    margin: 10px;
 }
