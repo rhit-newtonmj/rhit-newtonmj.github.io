@@ -1,8 +1,12 @@
-title{
+h1{
     background-color: navy;
     color: white
 }
 a{
     margin: 4px;
     font-size: 10px;
+}
+img{
+    width: 80%;
+    height: 40%;
 }
