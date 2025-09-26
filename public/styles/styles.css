@@ -1,7 +1,7 @@
 h1{
     background-color: #202A44;
-    /* color: white; */
-    color: red;
+    color: white;
+    /* color: red; */
     padding: 5px;
 }
 a{
@@ -34,21 +34,21 @@ p{
 .techinline{
     vertical-align: top;
     display: inline-block;
-    margin: 15px;
-    margin-left: 10px;
+    margin: auto;
     outline: #202A44;
 }
 .inline{
     vertical-align: top;
     display: inline-block;
     margin: 15px;
-    margin-right: 100px;
+    margin-right: 75%;
 }
 .techTitle{
     text-align: center;
     font-size: 20px;
     background-color: #202A44;
     color: white;
+    padding: 2px;
 }
 .rightAlign{
     text-align: right;

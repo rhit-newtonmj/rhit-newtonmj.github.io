@@ -3,7 +3,7 @@ let footerLinks = {};
 
 function addHeader(){
     let header = document.querySelector("header");
-    headerLinks.keys().forEach((page) =>{
+    Object.keys(headerLinks).forEach((page) =>{
         let link = document.createElement("a");
         link.title = page;
         link.href = headerLinks[page];
@@ -13,5 +13,6 @@ function addHeader(){
     }
 
 window.addEventListener("load", (event) => {
+    console.log("event occured: " + event);
     addHeader();
     })
