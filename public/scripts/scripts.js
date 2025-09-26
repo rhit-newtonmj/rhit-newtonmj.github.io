@@ -1,5 +1,5 @@
-let headerLinks = {Home:"index.html", Resume:"./resume.html", Portfolio:"./portfolio.html"};
-let footerLinks = {};
+const headerLinks = {Home:"index.html", Resume:"./resume.html", Portfolio:"./portfolio.html"};
+const footerLinks = {};
 
 function addHeader(){
     let header = document.querySelector("#header");
