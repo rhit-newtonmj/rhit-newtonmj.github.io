@@ -56,4 +56,5 @@ function addListeners(){
 window.addEventListener("load", (event) => {
     console.log("event occured: " + event);
     addHeader();
+    addListeners();
     })
