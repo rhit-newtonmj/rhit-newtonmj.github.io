@@ -60,3 +60,7 @@ p{
     display: inline-block;
     width: 30%;
 }
+header{
+    color: black;
+    height: 20px;
+}
