@@ -24,11 +24,17 @@ p{
     font-size: 20px;
 
 }
+#degree{
+    font-size: 20px;
+}
+#school{
+    font-size: 20px;
+}
 div{
     display: inline-block;
     margin: 5px;
-    padding: auto;
-    width: 15%;
+    margin-bottom: 20px;
+    margin-left: 10px;
 }
 .techTitle{
     text-align: center;
