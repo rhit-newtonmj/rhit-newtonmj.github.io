@@ -30,7 +30,8 @@ p{
 #school{
     font-size: 20px;
 }
-div{
+.inline{
+    vertical-align: top;
     display: inline-block;
     margin: 5px;
     margin-bottom: 20px;
