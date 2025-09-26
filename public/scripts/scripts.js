@@ -2,7 +2,7 @@ const headerLinks = {Home:"index.html", Resume:"./resume.html", Portfolio:"./por
 const footerLinks = {};
 
 function addHeader(){
-    let header = document.querySelector("#header");
+    let header = document.querySelector("header");
     Object.keys(headerLinks).forEach((page) =>{
         let link = document.createElement("a");
         link.innerText = page;
