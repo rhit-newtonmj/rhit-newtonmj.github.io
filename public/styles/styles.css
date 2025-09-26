@@ -7,11 +7,28 @@ a{
     font-size: 10px;
 }
 img{
-    width: 450px;
-    height: 300px;
-    text-align: center;
+    width: 80%
+
+}
+section{
+    background-color: #d1d1d5;
+    margin: 10px;
+    padding: 4px;
+}
+p{
+    font-size: 16px;
+}
+#job{
+    font-size: 20px;
+
 }
 div{
-    background-color: #c6c6c7;
-    margin: 10px;
+    width: 15%;
+    margin: 5px;
+    text-align: center;
+}
+.techTitle{
+    text-align: center;
+    font-size: 20px;
+
 }
