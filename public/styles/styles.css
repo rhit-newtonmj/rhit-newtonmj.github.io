@@ -30,12 +30,17 @@ p{
 #school{
     font-size: 20px;
 }
-.inline{
+.techinline{
     vertical-align: top;
     display: inline-block;
-    margin: 5px;
-    margin-bottom: 20px;
+    margin: 15px;
     margin-left: 10px;
+}
+inline{
+    vertical-align: top;
+    display: inline-block;
+    margin: 15px;
+    margin-right: 100px;
 }
 .techTitle{
     text-align: center;
