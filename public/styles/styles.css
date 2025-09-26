@@ -9,7 +9,7 @@ a{
     font-size: 10px;
 }
 img{
-    height: 80%
+    width: 30%
 
 }
 section{
@@ -21,7 +21,7 @@ p{
     font-size: 16px;
     margin: 2px;
 }
-/* #job{
+#job{
     font-size: 20px;
 
 }
@@ -30,7 +30,16 @@ p{
 }
 #school{
     font-size: 20px;
-} */
+}
+#gradDate{
+    font-size: 20px;
+}
+#gpa{
+    font-size: 20px;
+}
+#jobDate{
+    font-size: 20px;
+}
 .techinline{
     vertical-align: top;
     display: inline-block;
@@ -45,7 +54,7 @@ p{
 }
 .techTitle{
     text-align: center;
-    font-size: 30px;
+    font-size: 20px;
     background-color: #202A44;
     color: white;
     padding: 2px;
@@ -57,12 +66,16 @@ p{
     text-align: right;
     font-size: 20px;
 }
-.image{
+.threeimages{
     text-align: center;
     display: inline-block;
-    width: 30%;
 }
-header{
-    color: black;
-    height: 20px;
+#largeImage1{
+    width: 80%
+}
+#largeImage2{
+    width: 80%
+}
+#largeImage3{
+    width: 80%
 }
