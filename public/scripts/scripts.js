@@ -5,7 +5,7 @@ function addHeader(){
     let header = document.querySelector("#header");
     Object.keys(headerLinks).forEach((page) =>{
         let link = document.createElement("a");
-        link.title = page;
+        link.innerText = page;
         link.href = headerLinks[page];
         header.appendChild(link);
     });
