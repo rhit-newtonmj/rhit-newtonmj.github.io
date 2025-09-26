@@ -7,13 +7,13 @@ a{
     font-size: 10px;
 }
 img{
-    width: 80%
+    height: 80%
 
 }
 section{
-    background-color: #d1d1d5;
+    background-color: #E6E6E3;
     margin: 10px;
-    padding: 4px;
+    padding-left: 10px;
 }
 p{
     font-size: 16px;
@@ -25,10 +25,12 @@ p{
 div{
     width: 15%;
     margin: 5px;
-    text-align: center;
 }
 .techTitle{
     text-align: center;
     font-size: 20px;
 
+}
+#tech{
+    height: 50px
 }
