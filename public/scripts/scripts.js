@@ -7,7 +7,7 @@ function addHeader(){
         let link = document.createElement("a");
         link.title = page;
         link.href = headerLinks[page];
-        header.append(link);
+        header.appendChild(link);
     });
 
     }

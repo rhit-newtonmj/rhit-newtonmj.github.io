@@ -1,7 +1,7 @@
 h1{
     background-color: #202A44;
-    /* color: white; */
-    color: red;
+    color: white;
+    /* color: red; */
     padding: 5px;
 }
 a{
@@ -23,16 +23,13 @@ p{
 }
 #job{
     font-size: 20px;
-    margin-right: 60%;
 
 }
 #degree{
     font-size: 20px;
-    margin-right: 60%;
 }
 #school{
     font-size: 20px;
-    margin-right: 60%;
 }
 .techinline{
     vertical-align: top;
@@ -41,6 +38,7 @@ p{
     outline: #202A44;
 }
 .inline{
+    width: 60%;
     vertical-align: top;
     display: inline-block;
 }
@@ -52,6 +50,7 @@ p{
     padding: 2px;
 }
 .rightAlign{
+    width: 25%;
     text-align: right;
 }
 .image{
