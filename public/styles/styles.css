@@ -1,7 +1,7 @@
 h1{
     background-color: #202A44;
-    color: white;
-    /* color: red; */
+    /* color: white; */
+    color: red;
     padding: 5px;
 }
 a{
@@ -34,7 +34,7 @@ p{
 .techinline{
     vertical-align: top;
     display: inline-block;
-    margin: auto;
+    margin: 5%;
     outline: #202A44;
 }
 .inline{
@@ -51,9 +51,12 @@ p{
 }
 .rightAlign{
     width: 25%;
+    vertical-align: top;
+    display: inline-block;
     text-align: right;
 }
 .image{
     text-align: center;
     display: inline-block;
+    width: 30%;
 }
