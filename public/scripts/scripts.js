@@ -12,6 +12,47 @@ function addHeader(){
 
     }
 
+function addListeners(){
+    let threeimages1 = document.getElementById("threeimages1");
+    let largeImage1 = document.getElementById("largeImage1")
+    let image1 = document.getElementById("image1");
+    let image2 = document.getElementById("image2");
+    let image3 = document.getElementById("image3");
+    let image4 = document.getElementById("image4");
+    image1.addEventListener("click", function(){
+        if(image1.parentElement != largeImage1){
+            largeImage1.appendChild(image1);
+            threeimages1.appendChild(image2);
+            threeimages1.appendChild(image3);
+            threeimages1.appendChild(image4);
+        }
+    });
+    image2.addEventListener("click", function(){
+        if(image2.parentElement != largeImage1){
+            largeImage1.appendChild(image2);
+            threeimages1.appendChild(image1);
+            threeimages1.appendChild(image3);
+            threeimages1.appendChild(image4);
+        }
+    });
+    image3.addEventListener("click", function(){
+        if(image3.parentElement != largeImage1){
+            largeImage1.appendChild(image3);
+            threeimages1.appendChild(image1);
+            threeimages1.appendChild(image2);
+            threeimages1.appendChild(image4);
+        }
+    });
+    image4.addEventListener("click", function(){
+        if(image4.parentElement != largeImage1){
+            largeImage1.appendChild(image4);
+            threeimages1.appendChild(image1);
+            threeimages1.appendChild(image2);
+            threeimages1.appendChild(image3);
+        }
+    });
+}
+
 window.addEventListener("load", (event) => {
     console.log("event occured: " + event);
     addHeader();
