@@ -67,6 +67,7 @@ p{
     text-align: center;
     display: inline-block;
     width: 20%;
+    margin: auto;
 }
 #threeimages2 img{
     text-align: center;
@@ -74,14 +75,18 @@ p{
     width: 20%;
 }
 #largeImage1 img{
-    width: 80%
+    width: 80%;
+    margin: auto;
 }
 #largeImage2 img{
-    width: 80%
+    width: 80%;
+    margin: auto;
 }
 #largeImage3 img{
-    width: 80%
+    width: 80%;
+    margin: auto;
 }
-img{
+#professionalPhoto{
     height: 80%;
+    margin: auto;
 }
