@@ -75,18 +75,33 @@ p{
     width: 20%;
 }
 #largeImage1 img{
-    width: 80%;
+    width: 60%;
     margin: auto;
 }
 #largeImage2 img{
-    width: 80%;
+    width: 60%;
     margin: auto;
 }
 #largeImage3 img{
-    width: 80%;
+    width: 60%;
     margin: auto;
 }
 #professionalPhoto{
     height: 80%;
     margin: auto;
+}
+#largeImage1{
+    text-align: center;
+}
+#largeImage2{
+    text-align: center;
+}
+#largeImage3{
+    text-align: center;
+}
+#threeimages1{
+    text-align: center;
+}
+#threeimages2{
+    text-align: center;
 }
