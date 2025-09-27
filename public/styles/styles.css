@@ -7,10 +7,10 @@ header a{
     margin: 4px;
     font-size: 20px;
 }
-a :link{
+a {
     color: #202A44;
 }
-footer a:link{
+footer a{
     margin: 4px;
     font-size: 20px;
     color: white;
