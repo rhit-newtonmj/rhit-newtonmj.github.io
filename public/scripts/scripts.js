@@ -85,10 +85,10 @@ function addListeners(){
     });
     image9.addEventListener("click", function(){
         if(image9.parentElement != largeImage3){
-            largeImage3.appendChild(image6);
+            largeImage3.appendChild(image9);
+            threeimages2.appendChild(image6);
             threeimages2.appendChild(image7);
             threeimages2.appendChild(image8);
-            threeimages2.appendChild(image9);
         }
     });
 }
