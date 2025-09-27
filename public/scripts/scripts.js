@@ -55,10 +55,10 @@ function addListeners(){
 
     let threeimages2= document.getElementById("threeimages2");
     let largeImage3 = document.getElementById("largeImage3")
-    let image6 = document.getElementById("image1");
-    let image7 = document.getElementById("image2");
-    let image8 = document.getElementById("image3");
-    let image9 = document.getElementById("image4");
+    let image6 = document.getElementById("image6");
+    let image7 = document.getElementById("image7");
+    let image8 = document.getElementById("image8");
+    let image9 = document.getElementById("image9");
     image6.addEventListener("click", function(){
         if(image6.parentElement != largeImage3){
             largeImage3.appendChild(image6);
