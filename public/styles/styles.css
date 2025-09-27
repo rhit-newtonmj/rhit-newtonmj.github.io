@@ -62,16 +62,25 @@ p{
     text-align: right;
     font-size: 20px;
 }
-.threeimages{
+#threeimages1 img{
     text-align: center;
     display: inline-block;
+    width: 20%;
 }
-#largeImage1{
+#threeimages2 img{
+    text-align: center;
+    display: inline-block;
+    width: 20%;
+}
+#largeImage1 img{
     width: 80%
 }
-#largeImage2{
+#largeImage2 img{
     width: 80%
 }
-#largeImage3{
+#largeImage3 img{
     width: 80%
+}
+img{
+    height: 80%;
 }
