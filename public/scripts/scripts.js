@@ -51,6 +51,46 @@ function addListeners(){
             threeimages1.appendChild(image3);
         }
     });
+
+
+    let threeimages2= document.getElementById("threeimages2");
+    let largeImage3 = document.getElementById("largeImage3")
+    let image6 = document.getElementById("image1");
+    let image7 = document.getElementById("image2");
+    let image8 = document.getElementById("image3");
+    let image9 = document.getElementById("image4");
+    image6.addEventListener("click", function(){
+        if(image6.parentElement != largeImage3){
+            largeImage3.appendChild(image6);
+            threeimages2.appendChild(image7);
+            threeimages2.appendChild(image8);
+            threeimages2.appendChild(image9);
+        }
+    });
+    image7.addEventListener("click", function(){
+        if(image7.parentElement != largeImage3){
+            largeImage3.appendChild(image7);
+            threeimages2.appendChild(image6);
+            threeimages2.appendChild(image8);
+            threeimages2.appendChild(image9);
+        }
+    });
+    image8.addEventListener("click", function(){
+        if(image8.parentElement != largeImage3){
+            largeImage3.appendChild(image8);
+            threeimages2.appendChild(image6);
+            threeimages2.appendChild(image7);
+            threeimages2.appendChild(image9);
+        }
+    });
+    image9.addEventListener("click", function(){
+        if(image9.parentElement != largeImage3){
+            largeImage3.appendChild(image6);
+            threeimages2.appendChild(image7);
+            threeimages2.appendChild(image8);
+            threeimages2.appendChild(image9);
+        }
+    });
 }
 
 window.addEventListener("load", (event) => {
