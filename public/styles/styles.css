@@ -22,10 +22,11 @@ section{
 footer{
     background-color: #202A44;
 }
-footer a{
+footer a:link{
     margin: 4px;
     font-size: 20px;
     color: white;
+    text-align: center;
 }
 p{
     font-size: 16px;
