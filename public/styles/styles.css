@@ -10,7 +10,7 @@ a{
     color:#202A44;
 }
 a :visited{
-    color:black;
+    color:#4b5b82;
 }
 section{
     background-color: #E6E6E3;
@@ -75,7 +75,8 @@ p{
 #threeimages2 img{
     text-align: center;
     display: inline-block;
-    width: 5px;
+    width: 20%;
+    margin: 5px;
 }
 #largeImage1 img{
     width: 60%;
