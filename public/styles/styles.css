@@ -14,7 +14,7 @@ footer a{
     margin: 4px;
     font-size: 20px;
     color: white;
-    text-align: center;
+    padding: 4px;
 }
 a :visited{
     color:#4b5b82;
@@ -26,6 +26,7 @@ section{
 }
 footer{
     background-color: #202A44;
+    text-align: center;
 }
 p{
     font-size: 16px;
