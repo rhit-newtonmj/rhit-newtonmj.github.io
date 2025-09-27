@@ -1,18 +1,23 @@
 h1{
     background-color: #202A44;
     color: white;
-    /* color: red; */
     padding: 5px;
 }
 header a{
     margin: 4px;
     font-size: 20px;
 }
-a :visited{
-    color:#4b5b82;
-}
 a :link{
     color: #202A44;
+}
+footer a:link{
+    margin: 4px;
+    font-size: 20px;
+    color: white;
+    text-align: center;
+}
+a :visited{
+    color:#4b5b82;
 }
 section{
     background-color: #E6E6E3;
@@ -21,12 +26,6 @@ section{
 }
 footer{
     background-color: #202A44;
-}
-footer a:link{
-    margin: 4px;
-    font-size: 20px;
-    color: white;
-    text-align: center;
 }
 p{
     font-size: 16px;
@@ -120,6 +119,6 @@ p{
 #threeimages2{
     text-align: center;
 }
-#image{
+.image{
     text-align: center;
 }
