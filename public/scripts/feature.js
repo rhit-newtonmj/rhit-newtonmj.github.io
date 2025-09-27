@@ -1,3 +1,5 @@
+// Allows the user to change between different images so they can look at it in more detail
+//Citation: I have seen similar features in various websites, but could not find an example.
 function addListeners(){
     let threeimages1 = document.getElementById("threeimages1");
     let largeImage1 = document.getElementById("largeImage1")
