@@ -20,7 +20,6 @@ function addFooter(){
         link.href = footerLinks[page];
         footer.appendChild(link);
     });
-
     }
 
 window.addEventListener("load", (event) => {
