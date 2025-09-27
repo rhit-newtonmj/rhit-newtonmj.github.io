@@ -26,4 +26,4 @@ window.addEventListener("load", (event) => {
     console.log("event occured: " + event);
     addHeader();
     addFooter();
-    })
+ })
